@@ -1,0 +1,897 @@
+Total allocated: 22788560 bytes (333126 objects)
+Total retained:  6824 bytes (107 objects)
+
+allocated memory by gem
+-----------------------------------
+  10964441  activerecord-5.0.0.rc1
+   4509680  activesupport-5.0.0.rc1
+   2029855  activemodel-5.0.0.rc1
+   1763113  arel-7.0.0
+   1709663  other
+   1530880  sqlite3-1.3.11
+    280264  ruby-2.3.0/lib
+       664  concurrent-ruby-1.0.2
+
+allocated memory by file
+-----------------------------------
+   1824000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb
+   1416000  /Users/lingceng/workspace/memory_demo/common.rb
+   1080000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/transactions.rb
+    979064  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb
+    927840  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb
+    904000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb
+    896000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb
+    784000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set/builder.rb
+    680392  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb
+    649048  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation.rb
+    640320  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb
+    609160  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb
+    603040  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb
+    504400  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/database_statements.rb
+    496824  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb
+    496000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/callbacks.rb
+    472000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set.rb
+    464000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/transform_values.rb
+    448000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb
+    432000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/serialization.rb
+    432000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/persistence.rb
+    392000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/deep_dup.rb
+    352000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/dirty.rb
+    327972  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb
+    312000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/keys.rb
+    312000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/try.rb
+    293663  /Users/lingceng/workspace/memory_demo/people.rb
+    288040  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/json.rb
+    282808  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/result.rb
+    280264  /Users/lingceng/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/json/common.rb
+    273016  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb
+    272000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/dirty.rb
+    240560  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/query_methods.rb
+    240480  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/nodes/select_core.rb
+    240000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/serialization.rb
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/indifferent_access.rb
+    184368  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/nodes/select_statement.rb
+    184000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/validations/callbacks.rb
+    168008  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/inheritance.rb
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/suppressor.rb
+    152008  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/insert_manager.rb
+    128256  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/select_manager.rb
+    120280  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/explain_subscriber.rb
+    120240  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/scoping.rb
+    120000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_assignment.rb
+    120000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/validations.rb
+     96328  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/delegation.rb
+     87080  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/collectors/plain_string.rb
+     84320  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb
+     81168  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/quoting.rb
+
+allocated memory by location
+-----------------------------------
+   1416000  /Users/lingceng/workspace/memory_demo/common.rb:31
+    697624  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:560
+    496000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/transactions.rb:392
+    464000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/transactions.rb:415
+    464000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/transform_values.rb:14
+    464000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb:273
+    464000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb:277
+    432000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb:89
+    424000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb:74
+    392000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb:158
+    360840  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:91
+    320160  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:5
+    312000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb:75
+    280040  /Users/lingceng/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/json/common.rb:224
+    272000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/callbacks.rb:298
+    272000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb:129
+    272000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:544
+    249000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:131
+    240000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/json.rb:34
+    233392  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/result.rb:117
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/dirty.rb:176
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/serialization.rb:134
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:428
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/dirty.rb:54
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set.rb:70
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set/builder.rb:32
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set/builder.rb:63
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/database_statements.rb:232
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/persistence.rb:69
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/indifferent_access.rb:9
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/keys.rb:14
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/deep_dup.rb:42
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/try.rb:17
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb:104
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb:211
+    232000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb:230
+    232000  /Users/lingceng/workspace/memory_demo/people.rb:9
+    224000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/callbacks.rb:302
+    201368  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+    200000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set/builder.rb:62
+    184000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/validations/callbacks.rb:113
+    168008  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/inheritance.rb:65
+    167000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:495
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:67
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:9
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set.rb:31
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/suppressor.rb:41
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb:61
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/deep_dup.rb:14
+    160000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:135
+
+allocated memory by class
+-----------------------------------
+   7608376  Hash
+   6283144  Array
+   3070227  String
+   1160000  ActiveSupport::HashWithIndifferentAccess
+    984800  RubyVM::Env
+    720560  Proc
+    480320  ActiveRecord::Attribute::FromDatabase
+    312008  Person
+    240560  SQLite3::Statement
+    240000  ActiveSupport::JSON::Encoding::JSONGemEncoder::EscapedString
+    160000  ActiveRecord::Attribute::FromUser
+    120240  Enumerator
+    120040  ActiveRecord::AttributeSet
+    104208  Arel::Nodes::SelectCore
+     96328  ActiveRecord::Relation
+     96000  Time
+     88176  Arel::Nodes::SelectStatement
+     88008  ActiveRecord::Relation::QueryAttribute
+     80080  Arel::Attributes::Attribute
+     80000  ActiveRecord::ConnectionAdapters::RealTransaction
+     80000  ActiveRecord::LazyAttributeHash
+     72504  ActiveRecord::Result
+     72008  Arel::Nodes::InsertStatement
+     40080  ActiveRecord::ConnectionAdapters::AbstractAdapter::SQLString
+     40080  Arel::Nodes::JoinSource
+     40080  Arel::Nodes::SqlLiteral
+     40080  Arel::SelectManager
+     40000  ActiveModel::Errors
+     40000  ActiveRecord::AttributeMutationTracker
+     40000  ActiveRecord::ConnectionAdapters::TransactionState
+     40000  Arel::InsertManager
+     40000  Arel::Nodes::BindParam
+     40000  Arel::Nodes::Values
+     12496  RubyVM::InstructionSequence
+      8432  File
+      6440  MatchData
+       701  Regexp
+       528  Thread::Mutex
+       400  Symbol
+       224  JSON::Ext::Generator::State
+       208  ActiveRecord::ConnectionAdapters::Column
+       160  ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+        80  ActiveModel::Type::Integer
+        80  ActiveRecord::PredicateBuilder::RangeHandler
+        80  Arel::Table
+        80  Concurrent::Map
+        64  Method
+        40  ActiveModel::Type::Value
+        40  ActiveRecord::Associations::Preloader
+        40  ActiveRecord::AttributeSet::Builder
+
+allocated objects by gem
+-----------------------------------
+    161445  activerecord-5.0.0.rc1
+     43043  activesupport-5.0.0.rc1
+     36060  arel-7.0.0
+     34078  sqlite3-1.3.11
+     27009  other
+     24484  activemodel-5.0.0.rc1
+      7002  ruby-2.3.0/lib
+         5  concurrent-ruby-1.0.2
+
+allocated objects by file
+-----------------------------------
+     26000  /Users/lingceng/workspace/memory_demo/common.rb
+     19014  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb
+     15064  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb
+     15025  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation.rb
+     12005  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb
+     12004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb
+     12000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb
+     12000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb
+     10034  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb
+     10004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb
+     10000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/transactions.rb
+      9000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb
+      9000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set/builder.rb
+      9000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb
+      7064  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb
+      7010  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/database_statements.rb
+      7002  /Users/lingceng/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/json/common.rb
+      7001  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/json.rb
+      7000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/callbacks.rb
+      6014  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/query_methods.rb
+      6012  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/nodes/select_core.rb
+      6000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/serialization.rb
+      6000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/persistence.rb
+      6000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/serialization.rb
+      5010  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb
+      5000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set.rb
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/dirty.rb
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/suppressor.rb
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/explain_subscriber.rb
+      3006  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/scoping.rb
+      3006  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/nodes/select_statement.rb
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_assignment.rb
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/validations.rb
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/keys.rb
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/deep_dup.rb
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/try.rb
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/insert_manager.rb
+      2040  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb
+      2039  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/result.rb
+      2018  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb
+      2008  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/quoting.rb
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel.rb
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/select_manager.rb
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/table.rb
+      2003  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/tree_manager.rb
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_assignment.rb
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/dirty.rb
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/type/string.rb
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/validations/callbacks.rb
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/aggregations.rb
+
+allocated objects by location
+-----------------------------------
+     26000  /Users/lingceng/workspace/memory_demo/common.rb:31
+      7001  /Users/lingceng/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/json/common.rb:224
+      6014  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:91
+      6000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/json.rb:34
+      6000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb:89
+      5027  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+      5000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set/builder.rb:62
+      5000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/transactions.rb:392
+      4002  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:5
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:67
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/callbacks.rb:298
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb:158
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/suppressor.rb:41
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb:61
+      4000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:135
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:560
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:561
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/explain_subscriber.rb:11
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:136
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:139
+      3001  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:37
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb:74
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/serialization.rb:131
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/callbacks.rb:302
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/hash_with_indifferent_access.rb:308
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb:55
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb:85
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:131
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:194
+      3000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:495
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/database_statements.rb:12
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:146
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:290
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/query_methods.rb:1100
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/scoping.rb:14
+      2004  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/nodes/select_statement.rb:7
+      2003  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/tree_manager.rb:13
+      2002  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/table.rb:84
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb:217
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb:226
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/errors.rb:75
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/type/string.rb:15
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/validations/callbacks.rb:113
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/aggregations.rb:23
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/associations.rb:263
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:9
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:47
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set.rb:31
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb:129
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb:198
+
+allocated objects by class
+-----------------------------------
+    150265  Array
+     69668  String
+     46051  Hash
+      9007  Proc
+      9007  RubyVM::Env
+      6004  ActiveRecord::Attribute::FromDatabase
+      6000  ActiveSupport::JSON::Encoding::JSONGemEncoder::EscapedString
+      5000  ActiveSupport::HashWithIndifferentAccess
+      3007  SQLite3::Statement
+      3001  ActiveRecord::AttributeSet
+      2002  Arel::Attributes::Attribute
+      2000  ActiveRecord::Attribute::FromUser
+      2000  Person
+      1007  ActiveRecord::Result
+      1002  ActiveRecord::ConnectionAdapters::AbstractAdapter::SQLString
+      1002  ActiveRecord::Relation
+      1002  Arel::Nodes::JoinSource
+      1002  Arel::Nodes::SelectCore
+      1002  Arel::Nodes::SelectStatement
+      1002  Arel::Nodes::SqlLiteral
+      1002  Arel::SelectManager
+      1002  Enumerator
+      1000  ActiveModel::Errors
+      1000  ActiveRecord::AttributeMutationTracker
+      1000  ActiveRecord::ConnectionAdapters::RealTransaction
+      1000  ActiveRecord::ConnectionAdapters::TransactionState
+      1000  ActiveRecord::LazyAttributeHash
+      1000  ActiveRecord::Relation::QueryAttribute
+      1000  Arel::InsertManager
+      1000  Arel::Nodes::BindParam
+      1000  Arel::Nodes::InsertStatement
+      1000  Arel::Nodes::Values
+      1000  Time
+        24  RubyVM::InstructionSequence
+        23  MatchData
+        10  Symbol
+         3  Thread::Mutex
+         2  ActiveRecord::ConnectionAdapters::Column
+         2  ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+         2  ActiveRecord::PredicateBuilder::RangeHandler
+         2  Concurrent::Map
+         1  ActiveModel::Type::Integer
+         1  ActiveModel::Type::Value
+         1  ActiveRecord::Associations::Preloader
+         1  ActiveRecord::AttributeSet::Builder
+         1  ActiveRecord::PredicateBuilder
+         1  ActiveRecord::PredicateBuilder::ArrayHandler
+         1  ActiveRecord::PredicateBuilder::AssociationQueryHandler
+         1  ActiveRecord::PredicateBuilder::BaseHandler
+         1  ActiveRecord::PredicateBuilder::BasicObjectHandler
+
+retained memory by gem
+-----------------------------------
+      3993  activerecord-5.0.0.rc1
+       785  activemodel-5.0.0.rc1
+       664  concurrent-ruby-1.0.2
+       560  sqlite3-1.3.11
+       528  activesupport-5.0.0.rc1
+       294  arel-7.0.0
+
+retained memory by file
+-----------------------------------
+       912  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb
+       745  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb
+       704  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb
+       440  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb
+       432  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb
+       432  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb
+       352  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/mri_map_backend.rb
+       312  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/non_concurrent_map_backend.rb
+       296  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/class/attribute.rb
+       288  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb
+       272  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb
+       254  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb
+       232  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/except.rb
+       200  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb
+       186  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb
+       160  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb
+       160  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/quoting.rb
+       120  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb
+        87  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/statement_pool.rb
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/type/type_map.rb
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/type/integer.rb
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/table.rb
+
+retained memory by location
+-----------------------------------
+       705  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+       360  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:72
+       352  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/mri_map_backend.rb:14
+       296  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/class/attribute.rb:90
+       272  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:62
+       272  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:267
+       272  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:293
+       272  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/non_concurrent_map_backend.rb:16
+       254  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb:16
+       232  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:432
+       232  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb:209
+       232  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/except.rb:11
+       208  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:446
+       200  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+       192  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:16
+       186  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb:33
+       160  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:80
+       160  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+       160  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/quoting.rb:68
+       120  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:91
+        87  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/statement_pool.rb:33
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:17
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:516
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:103
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:254
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:137
+        80  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:140
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:353
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/type/integer.rb:12
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:164
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:25
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:56
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb:304
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:273
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:277
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:300
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:252
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:262
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:298
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:400
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:18
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:19
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:20
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:21
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:22
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:23
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:24
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:25
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:26
+        40  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/type/type_map.rb:14
+
+retained memory by class
+-----------------------------------
+      2152  String
+      1664  Hash
+       872  Array
+       352  Thread::Mutex
+       216  RubyVM::Env
+       208  ActiveRecord::ConnectionAdapters::Column
+       160  ActiveRecord::Attribute::FromDatabase
+       160  ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+        80  ActiveModel::Type::Integer
+        80  ActiveRecord::PredicateBuilder::RangeHandler
+        80  Arel::Table
+        80  Concurrent::Map
+        80  Proc
+        80  SQLite3::Statement
+        40  ActiveModel::Type::Value
+        40  ActiveRecord::AttributeSet
+        40  ActiveRecord::AttributeSet::Builder
+        40  ActiveRecord::PredicateBuilder
+        40  ActiveRecord::PredicateBuilder::ArrayHandler
+        40  ActiveRecord::PredicateBuilder::AssociationQueryHandler
+        40  ActiveRecord::PredicateBuilder::BaseHandler
+        40  ActiveRecord::PredicateBuilder::BasicObjectHandler
+        40  ActiveRecord::PredicateBuilder::ClassHandler
+        40  ActiveRecord::PredicateBuilder::PolymorphicArrayHandler
+        40  ActiveRecord::PredicateBuilder::RelationHandler
+        40  ActiveRecord::TableMetadata
+        40  ActiveRecord::TypeCaster::Map
+        40  Range
+
+retained objects by gem
+-----------------------------------
+        61  activerecord-5.0.0.rc1
+        19  activemodel-5.0.0.rc1
+        13  sqlite3-1.3.11
+         5  arel-7.0.0
+         5  concurrent-ruby-1.0.2
+         4  activesupport-5.0.0.rc1
+
+retained objects by file
+-----------------------------------
+        19  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb
+        18  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb
+        11  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb
+         8  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb
+         6  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb
+         6  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb
+         4  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb
+         4  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb
+         4  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb
+         3  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb
+         3  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/class/attribute.rb
+         3  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/non_concurrent_map_backend.rb
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/quoting.rb
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/type/type_map.rb
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/mri_map_backend.rb
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/type/integer.rb
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/statement_pool.rb
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/except.rb
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/table.rb
+
+retained objects by location
+-----------------------------------
+        17  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+         9  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:72
+         5  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+         4  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+         4  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb:33
+         4  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb:16
+         3  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/class/attribute.rb:90
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute.rb:80
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:17
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/quoting.rb:68
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:446
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:103
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:62
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:267
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:293
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/mri_map_backend.rb:14
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/non_concurrent_map_backend.rb:16
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:91
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:137
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:140
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:353
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/type/integer.rb:12
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:164
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:432
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:516
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:25
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:56
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb:209
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb:304
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/statement_pool.rb:33
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:254
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:273
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:277
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/core.rb:300
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:252
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:262
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:298
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:400
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:16
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:18
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:19
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:20
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:21
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:22
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:23
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:24
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:25
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation/predicate_builder.rb:26
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/type/type_map.rb:14
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/type/type_map.rb:9
+
+retained objects by class
+-----------------------------------
+        49  String
+        18  Array
+         8  Hash
+         2  ActiveRecord::Attribute::FromDatabase
+         2  ActiveRecord::ConnectionAdapters::Column
+         2  ActiveRecord::ConnectionAdapters::SqlTypeMetadata
+         2  ActiveRecord::PredicateBuilder::RangeHandler
+         2  Concurrent::Map
+         2  RubyVM::Env
+         2  Thread::Mutex
+         1  ActiveModel::Type::Integer
+         1  ActiveModel::Type::Value
+         1  ActiveRecord::AttributeSet
+         1  ActiveRecord::AttributeSet::Builder
+         1  ActiveRecord::PredicateBuilder
+         1  ActiveRecord::PredicateBuilder::ArrayHandler
+         1  ActiveRecord::PredicateBuilder::AssociationQueryHandler
+         1  ActiveRecord::PredicateBuilder::BaseHandler
+         1  ActiveRecord::PredicateBuilder::BasicObjectHandler
+         1  ActiveRecord::PredicateBuilder::ClassHandler
+         1  ActiveRecord::PredicateBuilder::PolymorphicArrayHandler
+         1  ActiveRecord::PredicateBuilder::RelationHandler
+         1  ActiveRecord::TableMetadata
+         1  ActiveRecord::TypeCaster::Map
+         1  Arel::Table
+         1  Proc
+         1  Range
+         1  SQLite3::Statement
+
+
+Allocated String Report
+-----------------------------------
+      3029  ""
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:91
+        20  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:378
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:400
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/table.rb:23
+
+      3010  "\"name\""
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/json.rb:34
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb:55
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:131
+        10  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:375
+
+      3007  "sql.active_record"
+      3007  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract_adapter.rb:561
+
+      2021  "name"
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/hash/keys.rb:16
+        10  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+         4  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:137
+         3  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/result.rb:111
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:409
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+
+      2017  "id"
+      2000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:47
+        10  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:409
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/primary_key.rb:58
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/result.rb:111
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:137
+
+      2010  "\"id\""
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/object/json.rb:34
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/json/encoding.rb:55
+        10  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:375
+
+      2008  "Person"
+      1002  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/scoping.rb:83
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/suppressor.rb:41
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/primary_key.rb:85
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:400
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/querying.rb:39
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/querying.rb:46
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/core_ext/module/introspection.rb:11
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activesupport-5.0.0.rc1/lib/active_support/inflector/methods.rb:90
+
+      2005  "name="
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_assignment.rb:45
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_assignment.rb:46
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:17
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:22
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:409
+
+      2000  "commit transaction"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb:240
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:517
+
+      1004  "type"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/serialization.rb:131
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/result.rb:111
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:137
+
+      1002  "("
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_assignment.rb:20
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb:546
+
+      1002  "*"
+      1002  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel.rb:31
+
+      1001  "SQL"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation.rb:67
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/relation.rb:543
+
+      1000  " "
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:800
+
+      1000  " (\"name\")"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:131
+
+      1000  ")"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:206
+
+      1000  ", "
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:133
+
+      1000  "?"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:730
+
+      1000  "INSERT INTO "
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:128
+
+      1000  "INSERT INTO \"people\" (\"name\") VALUES (?)"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/collectors/plain_string.rb:5
+
+      1000  "VALUES ("
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/to_sql.rb:191
+
+      1000  "aborting"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb:198
+
+      1000  "begin deferred transaction"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:495
+
+      1000  "begin transaction"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/sqlite3_adapter.rb:236
+
+      1000  "created_at"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb:61
+
+      1000  "created_on"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb:61
+
+      1000  "deferred"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:495
+
+      1000  "run"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/abstract/transaction.rb:198
+
+      1000  "updated_at"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb:61
+
+      1000  "updated_on"
+      1000  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/timestamp.rb:61
+
+       829  "r"
+       829  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       828  "a"
+       828  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       826  "x"
+       826  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       806  "m"
+       806  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       805  "y"
+       805  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       804  "b"
+       804  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       795  "d"
+       795  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       794  "i"
+       794  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       791  "j"
+       791  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       788  "z"
+       788  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       785  "f"
+       785  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       775  "u"
+       775  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       772  "k"
+       772  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       761  "q"
+       761  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       758  "l"
+       758  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       744  "n"
+       744  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       744  "t"
+       744  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       744  "w"
+       743  /Users/lingceng/workspace/memory_demo/common.rb:31
+         1  /Users/lingceng/workspace/memory_demo/people.rb:14
+
+       743  "c"
+       743  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+       741  "v"
+       741  /Users/lingceng/workspace/memory_demo/common.rb:31
+
+
+Retained String Report
+-----------------------------------
+         5  "people"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:103
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:25
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:56
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:62
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/model_schema.rb:400
+
+         4  "id"
+         2  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:137
+
+         3  "INTEGER"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/concurrent-ruby-1.0.2/lib/concurrent/collection/map/non_concurrent_map_backend.rb:24
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:140
+
+         3  "name"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:137
+
+         2  "varchar"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:108
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/statement.rb:140
+
+         1  ""
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/sqlite3-1.3.11/lib/sqlite3/database.rb:91
+
+         1  "ATTR_9646"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+
+         1  "ATTR_e616d656"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb:30
+
+         1  "Arel::Nodes::Values"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb:16
+
+         1  "SELECT \"people\".* FROM \"people\""
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/statement_pool.rb:33
+
+         1  "__temp__9646"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb:33
+
+         1  "__temp__9646="
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:17
+
+         1  "__temp__e616d656"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb:33
+
+         1  "__temp__e616d656="
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb:17
+
+         1  "ar_internal_metadata"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/connection_adapters/schema_cache.rb:103
+
+         1  "block in __temp__9646"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb:33
+
+         1  "block in __temp__e616d656"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/read.rb:33
+
+         1  "id_came_from_user?"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "id_change"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "id_changed?"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "id_previous_change"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "id_previously_changed?"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "id_will_change!"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name?"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_before_type_cast"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_came_from_user?"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_change"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_changed?"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_previous_change"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_previously_changed?"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_was"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "name_will_change!"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "restore_id!"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "restore_name!"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/activemodel-5.0.0.rc1/lib/active_model/attribute_methods.rb:383
+
+         1  "visit_Arel_Nodes_DeleteStatement"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb:16
+
+         1  "visit_Arel_Nodes_InsertStatement"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb:16
+
+         1  "visit_Arel_Nodes_Values"
+         1  /Users/lingceng/.rvm/gems/ruby-2.3.0/gems/arel-7.0.0/lib/arel/visitors/visitor.rb:16
+
